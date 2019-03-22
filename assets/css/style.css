@@ -1,0 +1,114 @@
+/*GENERAL STYLE*/
+
+h3 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+h2 {
+    color: #1886c7;
+    font-size: 32px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 14px;
+}
+
+/*HOME SECTION*/
+
+.navbar {
+    border-bottom: 1px solid #1886c7;
+}
+
+.navbar .navbar-brand {
+    color: #1886c7;
+    font-size: 22px;
+}
+
+.bg-dark {
+    background-color: rgba(0, 0, 0, 1) !important;
+}
+
+.nav-link {
+    color: white !important;
+    transition: color .3s ease;
+}
+
+.nav-link:hover {
+    color: #1886c7 !important;
+}
+
+.nav-link small, i {
+    color: #1886c7;
+}
+
+#headerSection {
+    background: url("../images/background.jpg") no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+}
+
+#headerSection .overlay {
+    background: rgba(0, 0, 0, .3);
+}
+
+#headerSection .row {
+    height: 100vh;
+}
+
+#headerSection span {
+    color: #1886c7 !important;
+}
+
+/*FEATURE SECTION*/
+
+#features i {
+    font-size: 30px;
+}
+
+.feature-top {
+    transition: color .3s ease;
+}
+
+.feature-top:hover {
+
+    color: #1886c7;
+    cursor: pointer;
+}
+
+/*HISTORY Section*/
+
+#outHistory h2 {
+    border-left: 6px solid #1886c7;
+    padding-left: 30px;
+}
+
+#outHistory .col-md-6 {
+    display: inline;
+}
+
+#outHistory .btn-outline-primary {
+    position: absolute;
+    bottom: 0;
+}
+
+#outHistory p {
+    line-height: 22px;
+}
+
+#team .card {
+    border: none;
+    opacity: .7;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+
+#team .card:hover {
+    opacity: 1;
+}
+
+#team i {
+    font-size: 22px;
+}
