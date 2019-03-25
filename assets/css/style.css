@@ -125,3 +125,84 @@ p {
     background-position: center;
     background-size: cover;
 }
+
+/*CaseStudy*/
+
+#caseStudy {
+    background-color: #f4f5f9;
+    line-height: 28px;
+}
+
+.caseArea {
+    background-color: #fff;
+    margin-top: 40px;
+    margin-right: -40px;
+    z-index: 100;
+    padding: 40px;
+    position: relative;
+    min-height: 420px;
+}
+
+#caseStudy h3 {
+    font-size: 1.5em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #1886c7;
+}
+
+#caseStudy img {
+    margin-left: -20px;
+}
+
+/*Portfolio*/
+
+#portfolio .col-md-3 {
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+}
+
+#portfolio h4 {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+#portfolio p {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.imageContainer {
+    position: relative;
+    cursor: pointer;
+}
+
+.imageOverlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #1886c7;
+    opacity: 0;
+    transition: .7s ease;
+}
+
+.imageContainer:hover .imageOverlay {
+    opacity: .6;
+}
+
+.imageText {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.imageContainer i {
+    color: white;
+    margin-bottom: 10px;
+}
