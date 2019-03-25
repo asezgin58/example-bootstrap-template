@@ -232,3 +232,21 @@ p {
 .blockquote-footer {
     color: #1886c7;
 }
+
+/*Contact*/
+
+#contact {
+    background-color: #f4f5f9;
+}
+
+#contact .input-group-prepend {
+    width: 50px;
+}
+
+#contact .input-group-text {
+    background-color: #1886c7;
+}
+
+#contact .input-group-text i {
+    color: white;
+}
