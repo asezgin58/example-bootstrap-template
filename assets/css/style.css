@@ -112,3 +112,16 @@ p {
 #team i {
     font-size: 22px;
 }
+
+/*What We Do Section*/
+
+#whatWeDo {
+    background: linear-gradient(
+            rgba(0, 0, 0, .7),
+            rgba(0, 0, 0, .7)
+    ),
+    url("../images/code.jpg") no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
