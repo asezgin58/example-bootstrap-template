@@ -250,3 +250,14 @@ p {
 #contact .input-group-text i {
     color: white;
 }
+
+#contact textarea {
+    resize: none;
+}
+
+/*Footer*/
+
+#main-footer {
+    color: white;
+    background-color: black;
+}
