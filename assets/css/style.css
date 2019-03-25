@@ -206,3 +206,29 @@ p {
     color: white;
     margin-bottom: 10px;
 }
+
+/*Testimonial Section*/
+
+#testimonial {
+    background: linear-gradient(
+            rgba(0, 0, 0, .7),
+            rgba(0, 0, 0, .7)
+    ),
+    url("../images/testimonial.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.quote {
+    color: rgba(24, 134, 199, .6);
+    margin-bottom: 30px;
+}
+
+.carousel-item img {
+    opacity: .5;
+}
+
+.blockquote-footer {
+    color: #1886c7;
+}
