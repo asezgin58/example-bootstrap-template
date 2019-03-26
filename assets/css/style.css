@@ -261,3 +261,126 @@ p {
     color: white;
     background-color: black;
 }
+
+/*MEDIA QUERIES*/
+
+@media screen and (max-width: 1200px) {
+    .display-4 {
+        font-size: 48px;
+    }
+
+    #outHistory p {
+        line-height: 18px;
+    }
+
+    #search .btn {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .display-4 {
+        font-size: 40px;
+    }
+
+    #outHistory .btn {
+        position: relative;
+    }
+
+    #outHistory .row {
+        text-align: center;
+    }
+
+    #outHistory .row .col-lg-6 {
+        margin-top: 20px;
+    }
+
+    #outHistory h2 {
+        border-left: 0;
+        border-bottom: 2px solid #1886c7;
+        padding-left: 0;
+    }
+
+    #caseStudy {
+        line-height: 22px;
+    }
+
+    #caseStudy i {
+        font-size: 24px;
+    }
+
+    /**/
+    .caseArea {
+        margin-top: 20px;
+        margin-right: -20px;
+        z-index: 100;
+        padding: 15px;
+        position: relative;
+        min-height: 375px;
+    }
+
+    #caseStudy h3 {
+        font-size: 1em;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        color: #1886c7;
+    }
+
+    #caseStudy img {
+        margin-left: -20px;
+    }
+
+    #search .btn {
+        display: none;
+    }
+
+    /**/
+}
+
+@media screen and (max-width: 768px) {
+    .display-4 {
+        font-size: 32px;
+    }
+
+    .caseArea {
+        margin-right: 0;
+    }
+
+    #caseStudy .caseImage {
+        margin-left: 0;
+    }
+
+    #caseStudy .row {
+        text-align: center;
+    }
+
+    #search .btn {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .display-4 {
+        font-size: 24px;
+    }
+
+    #search .btn {
+        display: inline-block;
+    }
+
+    #search input {
+        width: 60%;
+    }
+
+    .caseArea {
+        margin-right: 0;
+    }
+
+    #caseStudy .caseImage {
+        margin-left: 0;
+    }
+
+    #caseStudy .row {
+        text-align: center;
+    }
+}
